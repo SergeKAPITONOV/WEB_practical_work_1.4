@@ -3,4 +3,4 @@
 
 Задание не окончено.<br>
 
-Результат [здесь](http://127.0.0.1:5500/index.html)  
+Результат [здесь](http://j91599pi.beget.tech/pages/task_2/task_2.html)  
