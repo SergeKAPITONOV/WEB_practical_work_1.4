@@ -139,7 +139,10 @@
 .what__block-item{
     width: 576px;
     height: 600px;
-    padding: 421px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
 }
 
 .what-1{
