@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Общие классы */
@@ -10,6 +13,10 @@
 .wrapper{
     width: 81.11%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 /* Секция heading */
@@ -20,8 +27,19 @@
     background-color: #181818;
 }
 
+.heading__navigation{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+   
+
+}
+
 .heading__menu{
     list-style: none;
+    display: flex;
+    gap: 32px;
+
 }
 
 .heading__menu a{
@@ -37,7 +55,7 @@
 }
 
 .heading__template{
-    margin-top: 15px;
+    /* margin-top: 15px; */
     height: 43.6px;
 }
 
@@ -102,9 +120,22 @@
     margin: 0 auto;
 }
 
+.heading-content__icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 87px;
+}
+
+span{
+    margin-left: 6px;
+}
+
 .icon-item{
-    text-align: right;
-    margin-right: 40px;
+    display: flex;
+    text-align: start;
+    font-size: 12px;
+    /* margin-right: 40px; */
 }
 
 /* Секция what */
@@ -113,6 +144,11 @@
     padding-top: 120px;
     padding-bottom: 100px;
     background-color: #000000;
+}
+
+.wrapper__what{
+    width: 81.11%;
+    margin: 0 auto;
 }
 
 .what__heading{
@@ -136,6 +172,16 @@
     line-height: 30px;
 }
 
+.blocks__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1168px;
+    height: 1216px;
+    margin: 0px 136px 100px;
+}
+
 .what__block-item{
     width: 576px;
     height: 600px;
@@ -151,6 +197,14 @@
 
 .what-2{
     background-image: url(img/what-2.png);
+}
+
+.what-3{
+    background-image: url(img/what-3.png);
+}
+
+.what-4{
+    background-image: url(img/what-4.png);
 }
 
 .what__block-item h4{
@@ -171,8 +225,7 @@
     margin-bottom: 15px;
 }
 
-
- .block-item__img{
+.block-item__img{
     width: 143px;
     height: 42px;
     flex-shrink: 0;
@@ -182,9 +235,9 @@
     display: flex;
     gap: 6px;
     transition: 0.3s;
- } 
+} 
  
- .block-item__img a{
+.block-item__img a{
     color: #000;
     font-size: 15px;
     font-weight: 400;
@@ -194,10 +247,10 @@
     width: 100%;
     display: flex;
     align-items: center;
- }
+}
 
- .block-item__img:hover{
+.block-item__img:hover{
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     opacity: .4;
- }
+}
